@@ -123,6 +123,11 @@ body {
     display: flex;
     height: 77px;
     align-items: center;
+    color: $soft-blue;
+
+    span {
+      margin-left: 5px;
+    }
 
     &::before {
       content: "";
